@@ -1,0 +1,27 @@
+.App {
+  width: 80%;
+  margin: 30px auto;
+  user-select: none;
+}
+.cell {
+  box-sizing: border-box;
+  border: 1px solid red;
+  overflow: hidden;
+}
+h2 {
+  margin-top: 30px;
+}
+.wrapper {
+  height: 600px;
+  border: 1px solid orange;
+  box-sizing: content-box;
+}
+
+* :focus {
+  outline: none;
+}
+
+#dragable.grabbing {
+  border: 2px solid red;
+  cursor: grabbing;
+}
